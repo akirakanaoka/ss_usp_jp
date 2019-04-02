@@ -7,9 +7,9 @@ Stuart Schechter氏が執筆した["Common Pitfalls in Writing about Security an
 ___
 
 # セキュリティとプライバシーにおける被験者実験について執筆するときにありがちな落とし穴と、その回避方法
-[](
+<!-- 
 Common Pitfalls in Writing about Security and Privacy Human Subjects Experiments, and How to Avoid Them
-)
+--!>
 
 Stuart Schechter
 
