@@ -8,6 +8,7 @@ Stuart Schechter氏が執筆した["Common Pitfalls in Writing about Security an
 
 Stuart Schechter
 
-Microsoft Research
+Microsoft Research[^1]
 
+[^1]: 訳者注：所属は執筆時のものであり、現在の所属ではありません
 
