@@ -4,7 +4,7 @@ Stuart Schechter氏が執筆した["Common Pitfalls in Writing about Security an
 ## 許諾
 ご本人より和訳の許可をいただいています。（2019年3月27日）
 
-
+___
 
 # セキュリティとプライバシーにおける被験者実験について執筆するときにありがちな落とし穴と、その回避方法
 
