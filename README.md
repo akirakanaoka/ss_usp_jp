@@ -44,6 +44,7 @@ Microsoft Research (^1 訳者注：所属は執筆時のものであり、現在
 ## 4. 特別に考慮する事項：模擬攻撃を含む実験
 
 プライバシーとセキュリティの脅威に関する行動を含む実験では、他のHCIの実験について執筆するときにはそれほど重要ではないことに対しても考慮が必要になります。
+<!-- Experiments involving behavior in response to privacy and security threats warrant extra consideration in areas that may be less important when writing up other HCI experiments -->
 
 ### 4.1 明確な脅威モデルを持つこと
 
