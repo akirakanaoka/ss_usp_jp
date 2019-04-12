@@ -15,7 +15,12 @@ Stuart Schechter
 
 Microsoft Research (^1 訳者注：所属は執筆時のものであり、現在の所属ではありません)
 
+## 概要
+人を対象にしてのセキュリティやプライバシーを扱う実験論文の査読者は、著者がよく犯しがちな間違いの傾向に気づくことがある。これらは気をつけていれば簡単に避けることが出来る。
+この文書は、研究者が実験をデザイン、実行、論文化する際の過ちを回避するアドバイスとして記したものである。
+
 ## 本文の要約
+<!-- Executive Summary -->
 
 1. あなたがテスト（検定）しようとしている仮説を正確に示すこと。<!-- State the hypothesis or hypotheses you are testing precisely. -->
 2. セキュリティの仮説を検定する場合、明確かつ防御可能（弁護可能？）な脅威モデルを持つこと。<!-- If testing a security hypothesis, have a clear and defensible threat model. -->
