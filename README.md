@@ -6,7 +6,7 @@ Stuart Schechter氏が執筆した["Common Pitfalls in Writing about Security an
 
 ___
 
-# セキュリティとプライバシーにおける被験者実験について執筆するときにありがちな落とし穴と、その回避方法
+# セキュリティとプライバシーにおける人を対象にした実験について執筆するときにありがちな落とし穴と、その回避方法
 <!-- 
 Common Pitfalls in Writing about Security and Privacy Human Subjects Experiments, and How to Avoid Them
 -->
@@ -20,9 +20,9 @@ Microsoft Research (^1 訳者注：所属は執筆時のものであり、現在
 1. あなたがテスト（検定）しようとしている仮説を正確に示すこと。<!-- State the hypothesis or hypotheses you are testing precisely. -->
 2. セキュリティの仮説を検定する場合、明確かつ防御可能（弁護可能？）な脅威モデルを持つこと。<!-- If testing a security hypothesis, have a clear and defensible threat model. -->
 3. 著者自身や読者をミスリードすることを避けること。特に論文の貢献の売り込みや、結果からまとめを得るときの解釈の時に。<!-- Avoid misleading yourself or your reader in any way, especially in selling your contribution or in translating results into conclusions. -->
-4. 被験者の行動がいかに観察され、スコア化され、そして統計の検定に適用されたかについて注意深く説明すること。<!--  Carefully explain how participants’ behaviors were observed, scored, and then fed into statistical tests. -->
+4. 実験参加者の行動がいかに観察され、スコア化され、そして統計の検定に適用されたかについて注意深く説明すること。<!--  Carefully explain how participants’ behaviors were observed, scored, and then fed into statistical tests. -->
 5. 実験への倫理的な考察を説明すること。そしてその研究は所属組織の倫理審査委員会の承認を得ているかどうか明らかにすること。<!-- Explain any ethical considerations of your experiment and disclose whether your study was approved by the ethics review board at your institution(s). -->
-6. ユーザスタディなどの設計や得られた結果についての制限で著者らが認識しているものはすべて開示すること。<!-- Disclose all limitations in your study design and results that you are aware of. -->
+6. 研究の設計や得られた結果についての制限で著者らが認識しているものはすべて開示すること。<!-- Disclose all limitations in your study design and results that you are aware of. -->
 7. グラフがそれ自身で説明されうるようにすべての軸にラベルを書き、説明文（キャプション）を加えること。<!-- Label all axes in graphs and add captions to ensure figures are self explanatory. -->
 8. 相関関係が因果関係を暗示すると思いこまないこと。<!-- Do not assume that correlation implies causation -->
 9. 検定の結果、帰無仮説の棄却に失敗からといってその仮説が間違っていると結論付けないこと。<!-- Do not conclude that a hypothesis is false because a statistical test failed to disprove the null hypothesis. -->
@@ -37,7 +37,7 @@ Microsoft Research (^1 訳者注：所属は執筆時のものであり、現在
 
 ### 3.1 何を含めるか
 
-### 3.2 倫理と被験者の安全
+### 3.2 倫理と実験参加者の安全
 
 ### 3.3 補足資料
 
