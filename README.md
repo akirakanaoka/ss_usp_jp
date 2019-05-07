@@ -74,6 +74,16 @@ If you are not a native-level speaker of the language in which the work is writt
 もしあなたが論文執筆の言語をネイティブレベルに話せない場合は、言語・スペル・熟語におけるすべての問題点を指摘し取り除く助けをしてくれるネイティブレベルに話すことができる人を見つけなさい。
 
 ## 3. 実験のデザイン
+<!-- Experiments are designed to test hypotheses. 
+It is important that you state the hypothesis or hypotheses you are testing precisely.  -->
+実験は仮設を検証するために設計される。
+検証される仮設を正確に記述することが重要である。
+
+<!-- Your experimental design should be documented in sufficient detail to allow another researcher to replicate your experiment without consulting you for missing details. 
+While many papers fail to reach this standard and still are accepted into top publications, you will be well served by working to ensure that your experiment is documented well enough to allow it to be replicated. -->
+実験の設計は、他の研究者があなたに詳細を聞くことなく実験を再現できるように十分に詳細記述がされるべきである。
+多くの論文がこの基準に達成していないが、いまだトップレベルの国際会議や論文誌に採録されている。
+しかし、実験が再現できる十分な記述を確実に行うようにすれば、それはいずれ自分自身を助けるものになるだろう。
 
 ### 3.1 何を含めるか
 
