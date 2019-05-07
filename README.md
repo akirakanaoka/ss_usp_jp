@@ -111,20 +111,20 @@ While many papers fail to reach this standard and still are accepted into top pu
 - 実験参加者は実験途中でどういう情報を学習し、その後の行動にそれがどのように影響したか
 - 実験参加者間で行う実験の場合、グループ間でどういった経験（処置）の差が付けられたか
 - 実験参加者によってタスク群の実施順序が変わったか
-- もし欺瞞を用いた場合、参加者とのやりとりごとに欺瞞がどう続けされたか、そしてどの時点でその欺瞞が開示されたかを説明しなさい
+- もし欺瞞を用いた場合、参加者とのやりとりごとに欺瞞がどう続けされたか、そしてどの時点でその欺瞞が開示されたかを説明すること
 
 <!-- To enumerate more details, examine the study from your perspective as the researcher. -->
-より詳細な描写を列挙するために、研究者としての視点でその実験を調査しなさい。
+より詳細な描写を列挙するために、研究者としての視点でその実験を調査すること。
 
 <!-- Detail the recruiting process and the resulting demographic makeup of the participant pool. 
 If the participant pool does not precisely reflect the population of interest you'll want to discuss the differences.  -->
-実験参加者群の勧誘プロセスと、その結果の人口統計の構成を詳細に説明しなさい。
+実験参加者群の勧誘プロセスと、その結果の人口統計の構成を詳細に説明すること。
 実験参加者群が関心のある母集団を正確に反映していない場合、その違いを議論する。
 
 <!-- Describe how participants were observed and how observations translated into data points used for later analysis. 
 A surprising number of submissions fail to explain how behaviors are observed, scored, and then fed into statistical tests. 
 A statistical test is of little value if the reviewer doesn't know how observations were collected, how these observations were translated into numeric scores, or how these numeric scores were processed before a statistical test was applied.  -->
-実験参加者はどのように観察され、その後の分析のためにどのように観察結果がデータポイントに変換されたかを記述しなさい。
+実験参加者はどのように観察され、その後の分析のためにどのように観察結果がデータポイントに変換されたかを記述すること。
 驚くほど多くの投稿が、行動がいかに観察され、スコア化され、そして統計的な検定に利用されたかの説明できていない。
 観察結果がどのように収集され、観察結果が数値スコアにどのように変換され、数値スコアが統計的検定の適用前にどのように処理されたか、ということが査読者が知らない場合には、統計的検定はほとんど価値を持たない。
 
@@ -133,7 +133,7 @@ A statistical test is of little value if the reviewer doesn't know how observati
 Own up to mistakes, especially if you have suggestions for how the methodology might have been improved. 
 I've never run a study and not wished I'd designed their experiment at least slightly differently when the time came to write up the results.  -->
 実験を設計するときに浮かんだ決定店を強調すべきである。そして行った選択の根拠を説明すべきである。
-特に方法論がどのように改善されたかの提案がある場合には、間違いを白状せよ。
+特に方法論がどのように改善されたかの提案がある場合には、間違いを白状すること。
 私は、結果を書くときになって彼らの実験を少しでも違うように設計すればよかったと望んだり実験を行ったことはない。
 
 ### 3.2 倫理と実験参加者の安全
