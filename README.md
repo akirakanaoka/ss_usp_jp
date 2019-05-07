@@ -51,6 +51,27 @@ Microsoft Research (^1 訳者注：所属は執筆時のものであり、現在
 むしろ、学術論文の執筆に一般的な知識を持つ著者がそのスキルをセキュリティやプライバシに関する人間を対象とした研究の論文執筆に適合させることを助け、すべての著者がありがちな落し穴に落ちないようにすることを助けることを意図している。
 
 ## 2. あなたの貢献
+ <!-- It is important to define your contribution by explaining the general problem you are trying to solve and the specific instance of the problem that is the basis for your work, the hypotheses you wanted to test, unique features of your approach, and your results.  -->
+あなたが解決しようとしている一般的な問題と、研究の基礎となっているその問題の具体的な事例、検証したい仮説、アプローチの独自の特徴、そして結果を説明して貢献度を定義することが重要です。
+
+<!-- As you lay out your paper, and especially your contribution, you must be meticulously careful to avoid misleading yourself or your reader in any way. 
+Prior work should not be unduly disparaged, your innovations should not be exaggerated, and no limitation of your work should be swept under the rug. 
+Graduate students are taught that they need to sell their work and its contribution to the field - and this is an important skill - but good marketing should be about isolating the value of your contribution and presenting it clearly.  -->
+あなたが論文をレイアウトするとき、特に貢献の部分をレイアウトするときには、どのようにしてもあなた自身や読者が誤解しないように細心の注意を払わなければならない。
+既存研究を過度にけなしたり、自身のイノベーションを誇張したり、研究内容の制限を隠したりすべきではない。
+大学院生は、自分たちの研究と分野へのその貢献を売り込む必要があると教えられている。それは重要なスキルではある。しかし、よいマーケティングとは貢献の価値を分離してそれを明確に提示することにあるべきです。
+
+<!-- Exaggerations, undocumented limitations, or other issues that lead reviewers to suspect they are being mislead will cause them to start reading your paper more suspiciously. 
+This takes their focus away from appreciating the contribution of your work.  -->
+誇張や記載されていない制限、欺かれていると査読者に疑わせるような事項があると、査読者は論文を疑い深く読み始めてしまうことになる。
+こういったことは、研究の貢献を評価することから査読者の焦点を外してしまう。
+
+<!-- Alas, even if you are honest in how you convey your research, it is exceedingly hard to determine if you have conveyed the information necessary for someone other than yourself to understand it. 
+The best way to determine if your research will be comprehensible is to ask colleagues who were not involved in the research to read an early draft of your paper. 
+If you are not a native-level speaker of the language in which the work is written, find a native-level speaker to point out and help remove any problems with language, spelling, or idioms.  -->
+悲しいかな、もし自身の研究を伝えることに誠実であったとしても、自分以外の人たちに研究の理解に必要な情報を伝えたかどうかを判断することは非常に難しい。
+自身の研究が理解できるかを判断する最良の方法は、その研究に従事していない同僚に論文の草稿を読んでもらうように依頼することだ。
+もしあなたが論文執筆の言語をネイティブレベルに話せない場合は、言語・スペル・熟語におけるすべての問題点を指摘し取り除く助けをしてくれるネイティブレベルに話すことができる人を見つけなさい。
 
 ## 3. 実験のデザイン
 
