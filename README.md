@@ -86,6 +86,55 @@ While many papers fail to reach this standard and still are accepted into top pu
 しかし、実験が再現できる十分な記述を確実に行うようにすれば、それはいずれ自分自身を助けるものになるだろう。
 
 ### 3.1 何を含めるか
+<!-- One way to collect the details you'll need to present about your experiment is to imagine the chronological progression of your experiment from the perspective of your participants (noting the variations between treatment groups), your perspective as a researcher, and the perspective of anyone else involved in the conduct of the experiment (including recruiters).  -->
+<!-- Often, the description of the experiment in your paper will also follow a chronological time line.  -->
+<!-- Questions that you'll want to answer in your description of the experiment should include:  -->
+実験の記載に必要な詳細な描写を集めるための1つの方法は、複数の視点で実験の時系列を想像することである。実験参加者の視点（そのときに実験グループの差異に言及すること）、研究者としての自身の視点、そして実験実施に関係した他者（実験参加者のリクルーティングを行った人を含む）の視点がある。
+多くの場合、論文での実験の記述は時系列に沿っている。
+実験の記述においては、以下の質問への回答が含まれるべきである。
+
+<!-- 
+- What infrastructure did you use or build to facilitate your experiment? 
+- How were participants recruited? 
+- What incentive was provided to participate? 
+- Where did the participants go to participate? 
+- What were participants asked to do before, as part of, and following the experiment? 
+- What information did participants learn along the way and how might this have inuenced behaviors later on in the experiment? 
+- If the study was a between-subjects study, how did the experience (treatment) vary between the groups?
+- Did the order of any tasks change for different participants? 
+- If deception was used, explain how the deception was perpetuated at each interaction with participants and at what point the deception was revealed.  -->
+- 実験促進のためにどのインフラを利用/構築したか
+- 実験参加者はどのようにして勧誘されたか
+- 実験参加者にどういった報酬が提供されたか
+- 実験参加者は実験のためにどこに行ったか
+- 実験参加者が、実験前、実験中、実験後になにをするように求められたか
+- 実験参加者は実験途中でどういう情報を学習し、その後の行動にそれがどのように影響したか
+- 実験参加者間で行う実験の場合、グループ間でどういった経験（処置）の差が付けられたか
+- 実験参加者によってタスク群の実施順序が変わったか
+- もし欺瞞を用いた場合、参加者とのやりとりごとに欺瞞がどう続けされたか、そしてどの時点でその欺瞞が開示されたかを説明しなさい
+
+<!-- To enumerate more details, examine the study from your perspective as the researcher. -->
+より詳細な描写を列挙するために、研究者としての視点でその実験を調査しなさい。
+
+<!-- Detail the recruiting process and the resulting demographic makeup of the participant pool. 
+If the participant pool does not precisely reflect the population of interest you'll want to discuss the differences.  -->
+実験参加者群の勧誘プロセスと、その結果の人口統計の構成を詳細に説明しなさい。
+実験参加者群が関心のある母集団を正確に反映していない場合、その違いを議論する。
+
+<!-- Describe how participants were observed and how observations translated into data points used for later analysis. 
+A surprising number of submissions fail to explain how behaviors are observed, scored, and then fed into statistical tests. 
+A statistical test is of little value if the reviewer doesn't know how observations were collected, how these observations were translated into numeric scores, or how these numeric scores were processed before a statistical test was applied.  -->
+実験参加者はどのように観察され、その後の分析のためにどのように観察結果がデータポイントに変換されたかを記述しなさい。
+驚くほど多くの投稿が、行動がいかに観察され、スコア化され、そして統計的な検定に利用されたかの説明できていない。
+観察結果がどのように収集され、観察結果が数値スコアにどのように変換され、数値スコアが統計的検定の適用前にどのように処理されたか、ということが査読者が知らない場合には、統計的検定はほとんど価値を持たない。
+
+
+<!-- Along the way, you should highlight the decision points you came across in designing the experiment and explain the reasoning behind the choices you made. 
+Own up to mistakes, especially if you have suggestions for how the methodology might have been improved. 
+I've never run a study and not wished I'd designed their experiment at least slightly differently when the time came to write up the results.  -->
+実験を設計するときに浮かんだ決定店を強調すべきである。そして行った選択の根拠を説明すべきである。
+特に方法論がどのように改善されたかの提案がある場合には、間違いを白状せよ。
+私は、結果を書くときになって彼らの実験を少しでも違うように設計すればよかったと望んだり実験を行ったことはない。
 
 ### 3.2 倫理と実験参加者の安全
 
