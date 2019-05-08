@@ -411,3 +411,5 @@ Adam Shostack provided additional valuable feedback. -->
 人間を対象としたセキュリティとプライバシーの実験の研究へと移行することや執筆することに助力をくれたRachna Dhamijaに感謝する。
 Adam Shostackはさらに貴重なフィードバックを提供してくれた。
 
+___
+
