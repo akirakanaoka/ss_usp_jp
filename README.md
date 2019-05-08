@@ -168,7 +168,10 @@ If participants were never informed of the deception, you will need to disclose 
 To assist readers who may have questions that you could not be expected to anticipate or that fall outside the stated contribution of your work, consider attaching your study materials into an appendix at the end of your paper.
 Appendices are not a substitute for carefully detailing your methodology in the paper, as reviewers are neither required nor expected to read them.
 You must still ensure that you have explained all of the details essential the the validity of your experimental goals, methodology, and conclusions. -->
-
+どのように工夫しても実験の全詳細（たとえば実験参加者へのすべての質問の正確な表現など）を論文の本文に収めることはできないかもしれない。
+あなたが予想できなかった質問や研究の貢献範囲外の質問を持つかもしれない読者のために、論文の最後に付録として研究資料の添付を検討すること。
+査読者はその付録を読む必要や期待を受けていないため、付録は論文における手法の詳細記述を丁寧に行う代わりにはならない。
+付録を付けようとも、あなたが実験目標や方法論そして結論の妥当性に不可欠な詳細のすべてを説明する必要は依然存在する。
 
 ## 4. 特別に考慮する事項：模擬攻撃を含む実験
 <!-- Experiments involving behavior in response to privacy and security threats warrant extra consideration in areas that may be less important when writing up other HCI experiments -->
