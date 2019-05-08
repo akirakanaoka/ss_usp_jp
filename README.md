@@ -203,13 +203,24 @@ We've even considered holding contests to identify the most effective attack aga
 
 ### 4.3 生態学的妥当性を取り扱うこと
 <!-- There are many potential reasons why participants in a research study may not behave as they would in the real-life situation that your experiment is designed to emulate. -->
+実生活と同じように機能させるように設計された実験において実験参加者が実生活と同じように行動しないことということには、いくつかの潜在的な理由が存在する。
 
 <!-- Ecological validity is especially challenging when designing experiments of security and privacy behavior because, for most of the interesting scenarios to study, security or privacy will not be the primary goal of the individual.
 Furthermore, not completing the primary task may also have risks and consequences.
 Simulating the forces motivating a user's drive to complete a primary task and response to potential risks is challenging, and so extra attention to ecological validity is warranted as you design and document your experiment. -->
+セキュリティとプライバシーの行動実験を設計する時には生態学的妥当性が特に困難である。
+なぜなら、研究において興味深いシナリオのほとんどにおいてセキュリティとプライバシーは個人の主目的ではないためである。
+加えて、主要タスクを完了しないことはリスクと重大性をもたらす。
+利用者に主要タスクを完了させ潜在的リスクに対応させるような動機をシミュレートすることは困難であり、実験の設計と記述をする際には特別な注意が必要である。
 
 <!-- Questions you'll want to address include whether participants knew the study was about security or that the researchers study security.
 If they did, would this have led them to pay more attention to security? Did participants believe that they would be negatively impacted if they exhibited an insecure behavior in the same way that they would in real life? Did participants believe they had something to lose if they failed to complete a task because they could not do so securely or did not know how to do so securely? Have you considered the potential for users' behaviors to become habituated in a manner that could negatively impact security or usability?  -->
+議論の対象となる疑問点には、実験参加者はこの実験がセキュリティに関するものであることを知っているか、あるいはこの研究者がセキュリティを研究していることを知っているか、が含まれる。
+もし知っていた場合、実験参加者はセキュリティにより注意をするようになっただろうか？
+実験参加者は実生活と同様に安全でない行動をすると悪影響を受けると考えただろうか？
+実験参加者は、安全にタスクを完了させることに失敗したり、タスクをどう安全に終わらせるかを知らないときに何かを失うと考えただろうか？
+あなたは、実験参加者の行動がセキュリティやユーザビリティに悪影響を及ぼす可能性のある方法に慣れてしまうことの潜在性を検討しただろうか？
+
 
 
 ## 5. 限定条件の開示
