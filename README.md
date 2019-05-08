@@ -175,13 +175,17 @@ You must still ensure that you have explained all of the details essential the t
 
 ## 4. 特別に考慮する事項：模擬攻撃を含む実験
 <!-- Experiments involving behavior in response to privacy and security threats warrant extra consideration in areas that may be less important when writing up other HCI experiments -->
-プライバシーとセキュリティの脅威に関する行動を含む実験では、他のHCIの実験について執筆するときにはそれほど重要ではないことに対しても考慮が必要になる。
+プライバシーとセキュリティの脅威に対応する行動を伴う実験では、他のHCI（訳者注：Human Computer Interaction）実験について執筆するときにはそれほど重要ではないことに対しても考慮が必要になる。
 
 ### 4.1 明確な脅威モデルを持つこと
 <!-- If testing security behavior in response to an attack, clearly explain the assumptions made about the information, capabilities, and resources available to an attacker.
 These assumptions are your threat model.
 A common failing in papers is to fail to document or justify the assumptions that make up your threat model.
 Document how any attack you may simulate is similar to, and different from, a real attack. -->
+攻撃に対応するセキュリティの行動をテストする場合、攻撃者が利用可能な情報と能力そしてリソースについての仮定を明確に説明すること。
+これらの仮定は、脅威モデルである。
+脅威モデルを構成する仮定の記述と正当化しないことは、論文でよくある失敗となっている。
+シミュレートした攻撃がどれほど実際の攻撃に類似していてどれだけ異なるかを記述すること。
 
 
 ### 4.2 自身のシステムに有利となるバイアスを避けること
