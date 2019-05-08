@@ -194,6 +194,12 @@ An attacker will have more incentive to break your system than you do.
 Reviewers may look at an attack you tested against and believe, rightly or wrongly, that they could have designed more effective attacks.
 One way to remove bias is to identify third parties with both the talent and incentive to develop the best possible attack against the system you have built.
 We've even considered holding contests to identify the most effective attack against which to test our systems. -->
+独自設計のシステムをテストする場合、脅威モデルと実験の設計における偏りの潜在ないし出現に注意すること。
+攻撃者はあなたが行うよりもシステムを破るインセンティブが大きい。
+査読者はあなたがテストした攻撃を見て、より効果的な攻撃が設計できると信じるだろう（正しいか間違っているにかかわらず）。
+偏りを取り除く1つの方法は、提案システムに可能な限り再考の攻撃を構築する能力とインセンティブの両方を持つ第3者を特定することである。
+我々は、提案システムへの最も効果的な攻撃を特定するためにコンテストを開催することを検討したことがある。
+
 
 ### 4.3 生態学的妥当性を取り扱うこと
 <!-- There are many potential reasons why participants in a research study may not behave as they would in the real-life situation that your experiment is designed to emulate. -->
