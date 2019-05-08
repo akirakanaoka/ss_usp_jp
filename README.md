@@ -29,7 +29,8 @@ Microsoft Research (^1 訳者注：所属は執筆時のものであり、現在
 2. セキュリティの仮説を検定する場合、明確かつ正当化が可能な脅威モデルを持つこと。
 <!-- Avoid misleading yourself or your reader in any way, especially in selling your contribution or in translating results into conclusions. -->
 3. 自身や読者の判断を誤らせることを避けること。特に論文の貢献の売り込みや、結果から結論を得るときの解釈の時に。
-<!--  Carefully explain how participants’ behaviors were observed, scored, and then fed into statistical tests. -->4. 実験参加者の行動がいかに観察され、スコア化され、そして統計的検定に適用されたかについて注意深く説明すること。
+<!--  Carefully explain how participants’ behaviors were observed, scored, and then fed into statistical tests. -->
+4. 実験参加者の行動がいかに観察され、スコア化され、そして統計的検定に適用されたかについて注意深く説明すること。
 <!-- Explain any ethical considerations of your experiment and disclose whether your study was approved by the ethics review board at your institution(s). -->
 5. 実験への倫理的な考察を説明すること。そしてその研究は所属組織の倫理審査委員会の承認を得ているかどうか開示すること。
 <!-- Disclose all limitations in your study design and results that you are aware of. -->
