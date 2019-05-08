@@ -302,35 +302,53 @@ If it isn't already clear to you why this is a problem, imagine that one were to
 The statistical test has 50 samples for men and 50 samples for women.
 Let's say the man has no knowledge of statistics, and gets all 50 questions wrong.
 The woman gets them all right.
-Misled to believe that it had 50 independent trials from both men and women, the statistical test would indicate that women are better at statistics than men with a p value far below 0.01{a significant result! It is hopefully intuitively obvious that one cannot make such a strong conclusion about two populations by sampling only one member from each. -->
+Misled to believe that it had 50 independent trials from both men and women, the statistical test would indicate that women are better at statistics than men with a p value far below 0.01 - a significant result! It is hopefully intuitively obvious that one cannot make such a strong conclusion about two populations by sampling only one member from each. -->
 この誤りの例として、10人の実験参加者に10の質問を行い、得た100の回答で1つの統計的検定行うことがある。
 統計的検定は、それが1つの質問に100人の実験参加者が答えたものとしてp値を算出する。
 これがなぜ問題であるか確信ができない場合、さらに別の例を考えよう。
-1人の男性と1人の女性に統計に関する50の質問をしたとする。
+1人の男性と1人の女性に統計学に関する50の質問をしたとする。
 統計的検定で、男性の情報として50の標本を、女性の情報として50の標本を得ることになる。
-ここでもしその1人の男性が統計の知識がなくすべての質問で誤答し、その1人の女性はすべての質問に正答したとする。
-
+ここでもしその1人の男性が統計学の知識がなくすべての質問で誤答し、その1人の女性はすべての質問に正答したとする。
+それぞれ50の独立した試行が男性と女性に行われたと誤解され、統計的検定の結果、p値が0.01をはるかに下回り、女性は男性よりも統計学に優れていることを示す。
+重要な結果である！
+それぞれが1人のメンバーしかいない2つの母集団からはそのような強い結論を導くことはできない、ということが直感的に明白であることが望ましい。
 
 <!-- There are a number of ways to run statistical tests when you have multiple data points from the same participant.
 One simple one is to take a summary statistic for each participant and run the statistical test on the summary statistic.
 A student t-test is, after all, a test for comparing students' scores on exams that have many questions.
 It is designed to be used for a summary statistic, their test score, over a large enough number of questions that the score fits a normal distribution. -->
+同じ実験参加者から複数のデータを取得した場合の統計的な検定手法は多数ある。
+簡単なものの1つに、各実験参加者の要約統計量を取り、要約統計量により統計的検定を行う手法がある。
+学生T検定は多くの設問がある試験での生徒の点数を比較するための検定である。
+これは、学生の点数が正規分布になる十分な量の設問があるときに要約統計量に学生の点数を採用するように設計された検定である。
 
 <!-- Speaking of t-tests, and other statistical tests that rely on scores to be drawn from a normal distribution, you will want to show that your scores indeed appear to resemble a normal distribution if you are using these tests.
 At the very least, explain why you believe the scores should fall into a normal distribution.
 Better yet, use a non-parametric test when there is any doubt that the distribution is normal.
 If you have any question about the right test to use or how to use it, don't be afraid to ask for help.
 If you don't have a knowledgeable colleague handy, a number of helpful online guides can be found by searching on the phrase \choosing the right statistical test". -->
+T検定やそのほかの正規分布から得られるスコアに依存した統計的検定手法について言えば、そういった検定を使用する場合にはそのスコアが実際に正規分布に似ていることを示す必要がある。
+少なくとも、スコアが正規分布になると考えられる理由を説明すること。
+分布が正規であることに疑いがあるならば、ノンパラメトリック検定を使用すると良い。
+適切な検定やその利用方法に疑問がある場合は、遠慮せずに助けを求めること。
+知識のある同僚が身近にいない場合、”choosing the right statistical test（適切な統計的検定手法を選択する）"というフレーズで検索をすれば、多くの役に立つオンラインガイドが見つかる。
+
 
 <!-- As the number of statistical tests used to test one or more hypotheses grows, so does the chance that one will reach your significance threshold due to random chance.
 Be sure to correct for multiple comparisons.
 See, for example, the Wikipedia entry on Multiple Comparisons.
 This is easy to do but, again, a surprising number of papers have numerous statistical tests and no correction for multiple comparisons. -->
+1つ以上の仮説を検定するために行われる統計的検定の回数が増えるに従い、偶然ある1つの仮説が有意水準に達する確率が高まる。
+複数の検定を修正する方法がある。
+例えば、Wikipediaの[Multiple Compasirons](https://en.wikipedia.org/wiki/Multiple_comparisons_problem)（多重比較）の項を参照すると良い。
+これは簡単に利用ができるが、やはり、驚くほど多くの論文が多数の統計的検定を行いながらも多重比較の補正を行っていない。
 
 <!-- After completing both the experiments and analyses required to test a hypothesis, you'll want to discuss your results.
 In doing so, be careful not to jump to conclusions beyond those supported by your hypothesis and tests.
 Speculation about possible implications that could be tested with future work should be presented as such. -->
-
+仮説検証に必要な実験と分析の双方を完了した後、その結果を議論する必要がある。
+その場合、仮説や検定によって裏付けられた結論以上の結論に飛躍してしまわないように注意すること。
+考えうる意義に関して今後の課題として検定されるような推測は、そのように示されるべきである。
 
 
 ## 7. 関連研究の引用
