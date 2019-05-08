@@ -17,23 +17,33 @@ Microsoft Research (^1 訳者注：所属は執筆時のものであり、現在
 
 ## 概要
 <!-- Reviewers of papers that describe human subjects experiments of security and privacy often observe that authors are prone to a set of common mistakes that, if they were aware of, could be easily avoided. In this document I provide advice to help researchers avoid these mistakes in designing, performing, and documenting their experiments.  -->
-人を対象にしたセキュリティやプライバシーに関して実験論文の査読者は、著者がよく犯しがちな間違いの傾向に気づくことがある。これらは気をつけていれば簡単に避けることが出来る。
-この文書は、研究者が実験をデザイン、実行、論文化する際の過ちを回避するアドバイスとして記したものである。
+人間を対象にしたセキュリティやプライバシーに関する実験論文の査読者は、著者がよく犯しがちな間違いの傾向に気づくことがある。これらは気をつけていれば簡単に避けることが出来る。
+この文書は、研究者が実験を設計、実施、論文化する際の過ちを回避するアドバイスとして記したものである。
 
 ## 本文の要約
 <!-- Executive Summary -->
 
-1. あなたがテスト（検定）しようとしている仮説を正確に示すこと。<!-- State the hypothesis or hypotheses you are testing precisely. -->
-2. セキュリティの仮説を検定する場合、明確かつ防御可能（弁護可能？）な脅威モデルを持つこと。<!-- If testing a security hypothesis, have a clear and defensible threat model. -->
-3. 著者自身や読者をミスリードすることを避けること。特に論文の貢献の売り込みや、結果からまとめを得るときの解釈の時に。<!-- Avoid misleading yourself or your reader in any way, especially in selling your contribution or in translating results into conclusions. -->
-4. 実験参加者の行動がいかに観察され、スコア化され、そして統計の検定に適用されたかについて注意深く説明すること。<!--  Carefully explain how participants’ behaviors were observed, scored, and then fed into statistical tests. -->
-5. 実験への倫理的な考察を説明すること。そしてその研究は所属組織の倫理審査委員会の承認を得ているかどうか明らかにすること。<!-- Explain any ethical considerations of your experiment and disclose whether your study was approved by the ethics review board at your institution(s). -->
-6. 研究の設計や得られた結果についての制限で著者らが認識しているものはすべて開示すること。<!-- Disclose all limitations in your study design and results that you are aware of. -->
-7. グラフがそれ自身で説明されうるようにすべての軸にラベルを書き、説明文（キャプション）を加えること。<!-- Label all axes in graphs and add captions to ensure figures are self explanatory. -->
-8. 相関関係が因果関係を暗示すると思いこまないこと。<!-- Do not assume that correlation implies causation -->
-9. 検定の結果、帰無仮説の棄却に失敗からといってその仮説が間違っていると結論付けないこと。<!-- Do not conclude that a hypothesis is false because a statistical test failed to disprove the null hypothesis. -->
-10. 正規分布への当てはめや試行が独立であることなど、要件が合致したときのみ統計テストを使うこと (もし疑わしい場合はノンパラメトリック検定を使うこと。)<!-- Use a statistical test only when the requirements under which it is valid, such as data fitting a normal distribution or trials being independent, are met. (When in doubt, use a non-parametric test.) -->
-11. 助けを求めることを恐れないこと。この研究に参加していない仲間・同僚に論文の草稿を読ませること。<!-- Don’t be afraid to ask for help. Ask colleagues who were not involved in the research to read an early draft of your paper. -->
+<!-- State the hypothesis or hypotheses you are testing precisely. -->
+1. あなたがテスト（検定）しようとしている仮説を正確に示すこと。
+<!-- If testing a security hypothesis, have a clear and defensible threat model. -->
+2. セキュリティの仮説を検定する場合、明確かつ正当化が可能な脅威モデルを持つこと。
+<!-- Avoid misleading yourself or your reader in any way, especially in selling your contribution or in translating results into conclusions. -->
+3. 自身や読者の判断を誤らせることを避けること。特に論文の貢献の売り込みや、結果から結論を得るときの解釈の時に。
+<!--  Carefully explain how participants’ behaviors were observed, scored, and then fed into statistical tests. -->4. 実験参加者の行動がいかに観察され、スコア化され、そして統計的検定に適用されたかについて注意深く説明すること。
+<!-- Explain any ethical considerations of your experiment and disclose whether your study was approved by the ethics review board at your institution(s). -->
+5. 実験への倫理的な考察を説明すること。そしてその研究は所属組織の倫理審査委員会の承認を得ているかどうか開示すること。
+<!-- Disclose all limitations in your study design and results that you are aware of. -->
+6. 研究の設計や結果について認識している限定条件はすべて開示すること。
+<!-- Label all axes in graphs and add captions to ensure figures are self explanatory. -->
+7. 図表が分かりやすいように、グラフ内のすべての軸にラベルを付け説明文（キャプション）を加えること。
+<!-- Do not assume that correlation implies causation -->
+8. 相関関係が因果関係を暗示すると思いこまないこと。
+<!-- Do not conclude that a hypothesis is false because a statistical test failed to disprove the null hypothesis. -->
+9. 検定の結果、帰無仮説の棄却に失敗からといってその仮説が間違っていると結論付けないこと。
+<!-- Use a statistical test only when the requirements under which it is valid, such as data fitting a normal distribution or trials being independent, are met. (When in doubt, use a non-parametric test.) -->
+10. データが正規分布になることや試行が独立であることなど、要件が合致したときのみ統計的検定を使うこと (もし疑わしい場合はノンパラメトリック検定を使うこと)。
+<!-- Don’t be afraid to ask for help. Ask colleagues who were not involved in the research to read an early draft of your paper. -->
+11. 助けを求めることを恐れないこと。この研究に参加していない同僚に論文の草稿を読ませること。
 
 ## 1. はじめに
 <!-- Program committees must often reject papers with fascinating ideas or clever experimental methodologies - which we would love to see presented - because the validity of the experimental results is in question: program committee members cannot ascertain key experimental details from the paper, how data were collected, or whether a statistical test is indeed sufficient to support a hypothesis.  -->
@@ -57,13 +67,13 @@ Microsoft Research (^1 訳者注：所属は執筆時のものであり、現在
 <!-- As you lay out your paper, and especially your contribution, you must be meticulously careful to avoid misleading yourself or your reader in any way. 
 Prior work should not be unduly disparaged, your innovations should not be exaggerated, and no limitation of your work should be swept under the rug. 
 Graduate students are taught that they need to sell their work and its contribution to the field - and this is an important skill - but good marketing should be about isolating the value of your contribution and presenting it clearly.  -->
-あなたが論文をレイアウトするとき、特に貢献の部分をレイアウトするときには、どのようにしてもあなた自身や読者が誤解しないように細心の注意を払わなければならない。
+あなたが論文をレイアウトするとき、特に貢献の部分をレイアウトするときには、どのようにしてもあなた自身や読者が判断を誤らせないよう細心の注意を払わなければならない。
 既存研究を過度にけなしたり、自身のイノベーションを誇張したり、研究内容の制限を隠したりすべきではない。
 大学院生は、自分たちの研究と分野へのその貢献を売り込む必要があると教えられている。それは重要なスキルではある。しかし、よいマーケティングとは貢献の価値を分離してそれを明確に提示することにあるべきである。
 
 <!-- Exaggerations, undocumented limitations, or other issues that lead reviewers to suspect they are being mislead will cause them to start reading your paper more suspiciously. 
 This takes their focus away from appreciating the contribution of your work.  -->
-誇張や記載されていない制限、欺かれていると査読者に疑わせるような事項があると、査読者は論文を疑い深く読み始めてしまうことになる。
+誇張や記載されていない制限、判断を誤らせられていると査読者に疑わせるような事項があると、査読者は論文を疑い深く読み始めてしまうことになる。
 こういったことは、研究の貢献を評価することから査読者の焦点を外してしまう。
 
 <!-- Alas, even if you are honest in how you convey your research, it is exceedingly hard to determine if you have conveyed the information necessary for someone other than yourself to understand it. 
@@ -232,8 +242,8 @@ Reviewers will be looking for undisclosed methodological limitations, overstated
 Ensuring that readers can correctly identify the scientific implications of your study is your job first, and reviewers second, and so the better you can show that you've done it the better reviewers will feel about your work.
 Reviewers will be less likely to critique your study design if they see that you are aware of the limitations of your work and have fully disclosed them.
 By showing that you've already looked at your own experiment with a critical eye, you allow your reviewers to focus more on evaluating the implications of your findings and less on searching for flaws that they suspect may be hiding under the covers. -->
-査読の目的の1つは、発表を通して追加的な信ぴょう性を受けたことにより誤解をうけるあるいは根本的に畏れられる結果を含む論文を、維持することにある。
-査読者は、方法の非開示限定条件や過大評価された結果、そして読者を誤解させる他の内容を探している。
+査読の目的の1つは、発表を通して追加的な信ぴょう性を受けたことにより判断を誤らせるあるいは根本的に畏れられる結果を含む論文を、維持することにある。
+査読者は、方法の非開示限定条件や過大評価された結果、そして読者の判断を誤らせる他の内容を探している。
 読者に研究の学術的意義を正確に認識させることが、第1にあなたが行うことである。それらを査読者に行うことは第2である。読者に対して正確に認識をさせたことが上手に示されれば、査読者はあなたの研究成果によい感情を抱くだろう。
 あなたが自身の研究成果の限定条件に気づき、それらをすべて開示していることを査読者がわかれば、査読者は研究の設計に対して批判する可能性はより少なくなる。
 自身の実験に対して批判的な視点でとらえていることを示すことによって、査読者は隠れていると疑って欠点探しをすることよりも、明らかになったことの意味の評価により焦点を当てることになる。
