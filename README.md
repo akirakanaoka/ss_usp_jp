@@ -405,4 +405,9 @@ While there is no prescribed number of references, expect warning bells to go of
 I am grateful to Lorrie Cranor and Andrew Patrick for encouraging me to write this article, as well as their comments, corrections, and suggestions along the way.
 I am grateful to Rachna Dhamija who helped me navigate my transition to working in, and writing about, human subjects experiments in security and privacy.
 Adam Shostack provided additional valuable feedback. -->
+研究遂行にあたり様々な助力を得た場合、論文には謝辞の章が入っているべきだろう。もし論文が匿名化されている場合は、査読の間は謝辞の章は提出されるべきではない。
+
+この文献を書くことを後押ししてくれ、そしてその過程で多くのコメントや訂正、提案をくれたLorrie CranorとAndrew Patrickに感謝する。
+人間を対象としたセキュリティとプライバシーの実験の研究へと移行することや執筆することに助力をくれたRachna Dhamijaに感謝する。
+Adam Shostackはさらに貴重なフィードバックを提供してくれた。
 
