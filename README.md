@@ -49,7 +49,7 @@ Microsoft Research (^1 訳者注：所属は執筆時のものであり、現在
 ## 1. はじめに
 <!-- Program committees must often reject papers with fascinating ideas or clever experimental methodologies - which we would love to see presented - because the validity of the experimental results is in question: program committee members cannot ascertain key experimental details from the paper, how data were collected, or whether a statistical test is indeed sufficient to support a hypothesis.  -->
 <!-- Many of the mistakes that force program committees to reject papers are common and easily avoided. -->
-プログラム委員会は、魅力的なアイデアや巧みな実験方法を持つ論文を実験結果の妥当性が疑問視されているために却下しなければならないことが多い（我々はそれが発表されるのを見たいのだが）。これは、データの収集方法、統計的検定が仮説を支持するのに十分であるかどうか、という重要な実験の詳細をプログラム委員が論文から確かめることができないからである。
+プログラム委員会は、魅力的なアイデアや巧みな実験方法を持つ論文を実験結果の妥当性が疑問視されているために不採録にしなければならないことが多い（我々はそれが発表されるのを見たいのだが）。これは、データの収集方法、統計的検定が仮説を支持するのに十分であるかどうか、という重要な実験の詳細情報をプログラム委員が論文から確かめることができないからである。
 論文の不採録判定をプログラム委員会に余儀なくさせる間違いの多くは、ありがちな事柄であって簡単に避けることが出来る。
 
 <!-- I have written this document to guide researchers in how to avoid the most common pitfalls when submitting to the Symposium on Usable Privacy and Security (SOUPS) and other venues that accept human subjects studies about security and privacy. -->
@@ -58,8 +58,8 @@ Microsoft Research (^1 訳者注：所属は執筆時のものであり、現在
 <!-- Rather, it is intended to help those with a general knowledge of how to write an academic paper to adapt their skills to writing up security and privacy human subjects studies and to help all authors avoid common pitfalls.  -->
 本稿は、the Symposium on Usable Privacy and Security (SOUPS) や、人間を対象としたセキュリティとプライバシーに関する研究を受け入れるその他の場に投稿する際の、最も一般的な落とし穴を避ける方法について研究者をガイドするために書いた文書である。
 私は、コンピュータサイエンスの論文を書くための一般的に受け入れられているプラクティスや、セキュリティに関する人間を対象とした研究に特有のプラクティス、そして（一般的には受け入れられていないが）著者や査読者としての私の意見と過去の経験に基づいたアドバイスを組み合わせて提供する。
-本稿は、論文を執筆するための完全なガイドであることをを意図していない。
-むしろ、学術論文の執筆に一般的な知識を持つ著者がそのスキルをセキュリティやプライバシに関する人間を対象とした研究の論文執筆に適合させることを助け、すべての著者がありがちな落し穴に落ちないようにすることを助けることを意図している。
+本稿は、論文を執筆するための完全なガイドであることを意図していない。
+むしろ、学術論文の執筆に一般的な知識を持つ著者がそのスキルをセキュリティやプライバシーに関する人間を対象とした研究の論文執筆に適合させることを助け、すべての著者がありがちな落し穴に落ちないように助けることを意図している。
 
 ## 2. あなたの貢献
  <!-- It is important to define your contribution by explaining the general problem you are trying to solve and the specific instance of the problem that is the basis for your work, the hypotheses you wanted to test, unique features of your approach, and your results.  -->
@@ -69,7 +69,7 @@ Microsoft Research (^1 訳者注：所属は執筆時のものであり、現在
 Prior work should not be unduly disparaged, your innovations should not be exaggerated, and no limitation of your work should be swept under the rug. 
 Graduate students are taught that they need to sell their work and its contribution to the field - and this is an important skill - but good marketing should be about isolating the value of your contribution and presenting it clearly.  -->
 あなたが論文をレイアウトするとき、特に貢献の部分をレイアウトするときには、どのようにしてもあなた自身や読者が判断を誤らせないよう細心の注意を払わなければならない。
-既存研究を過度にけなしたり、自身のイノベーションを誇張したり、研究内容の制限を隠したりすべきではない。
+既存研究を過度にけなしたり、自身のイノベーションを誇張したり、研究内容の限定条件を隠したりすべきではない。
 大学院生は、自分たちの研究と分野へのその貢献を売り込む必要があると教えられている。それは重要なスキルではある。しかし、よいマーケティングとは貢献の価値を分離してそれを明確に提示することにあるべきである。
 
 <!-- Exaggerations, undocumented limitations, or other issues that lead reviewers to suspect they are being mislead will cause them to start reading your paper more suspiciously. 
@@ -80,15 +80,15 @@ This takes their focus away from appreciating the contribution of your work.  --
 <!-- Alas, even if you are honest in how you convey your research, it is exceedingly hard to determine if you have conveyed the information necessary for someone other than yourself to understand it. 
 The best way to determine if your research will be comprehensible is to ask colleagues who were not involved in the research to read an early draft of your paper. 
 If you are not a native-level speaker of the language in which the work is written, find a native-level speaker to point out and help remove any problems with language, spelling, or idioms.  -->
-悲しいかな、もし自身の研究を伝えることに誠実であったとしても、自分以外の人たちに研究の理解に必要な情報を伝えたかどうかを判断することは非常に難しい。
+悲しいかな、もし自身の研究を伝えることに誠実であったとしても、自分以外の人たちに研究の理解に必要な情報が伝わったかどうかを判断することは非常に難しい。
 自身の研究が理解できるかを判断する最良の方法は、その研究に従事していない同僚に論文の草稿を読んでもらうように依頼することだ。
-もしあなたが論文執筆の言語をネイティブレベルに話せない場合は、言語・スペル・熟語におけるすべての問題点を指摘し取り除く助けをしてくれるネイティブレベルに話すことができる人を見つけなさい。
+もしあなたが論文執筆の言語をネイティブレベルに話せない場合は、言語・スペル・熟語におけるすべての問題点を指摘し取り除く助けをしてくれるネイティブレベルに話すことができる人を見つけること。
 
 ## 3. 実験のデザイン
 <!-- Experiments are designed to test hypotheses. 
 It is important that you state the hypothesis or hypotheses you are testing precisely.  -->
-実験は仮設を検証するために設計される。
-検証される仮設を正確に記述することが重要である。
+実験は仮説を検証するために設計される。
+検証される仮説を正確に記述することが重要である。
 
 <!-- Your experimental design should be documented in sufficient detail to allow another researcher to replicate your experiment without consulting you for missing details. 
 While many papers fail to reach this standard and still are accepted into top publications, you will be well served by working to ensure that your experiment is documented well enough to allow it to be replicated. -->
@@ -100,7 +100,7 @@ While many papers fail to reach this standard and still are accepted into top pu
 <!-- One way to collect the details you'll need to present about your experiment is to imagine the chronological progression of your experiment from the perspective of your participants (noting the variations between treatment groups), your perspective as a researcher, and the perspective of anyone else involved in the conduct of the experiment (including recruiters).  -->
 <!-- Often, the description of the experiment in your paper will also follow a chronological time line.  -->
 <!-- Questions that you'll want to answer in your description of the experiment should include:  -->
-実験の記載に必要な詳細な描写を集めるための1つの方法は、複数の視点で実験の時系列を想像することである。実験参加者の視点（そのときに実験グループの差異に言及すること）、研究者としての自身の視点、そして実験実施に関係した他者（実験参加者のリクルーティングを行った人を含む）の視点がある。
+実験の記載に必要な詳細記述を集めるための1つの方法は、複数の視点で実験の時系列を想像することである。実験参加者の視点（そのときに実験グループの差異に言及すること）、研究者としての自身の視点、そして実験実施に関係した他者（実験参加者のリクルーティングを行った人を含む）の視点がある。
 多くの場合、論文での実験の記述は時系列に沿っている。
 実験の記述においては、以下の質問への回答が含まれるべきである。
 
@@ -116,7 +116,7 @@ While many papers fail to reach this standard and still are accepted into top pu
 - If deception was used, explain how the deception was perpetuated at each interaction with participants and at what point the deception was revealed.  -->
 - 実験促進のためにどのインフラを利用/構築したか
 - 実験参加者はどのようにして勧誘されたか
-- 実験参加者にどういった報酬が提供されたか
+- 実験参加者にどういった報酬（インセンティブ）が提供されたか
 - 実験参加者は実験のためにどこに行ったか
 - 実験参加者が、実験前、実験中、実験後になにをするように求められたか
 - 実験参加者は実験途中でどういう情報を学習し、その後の行動にそれがどのように影響したか
@@ -125,25 +125,25 @@ While many papers fail to reach this standard and still are accepted into top pu
 - もし欺瞞を用いた場合、参加者とのやりとりごとに欺瞞がどう続けされたか、そしてどの時点でその欺瞞が開示されたかを説明すること
 
 <!-- To enumerate more details, examine the study from your perspective as the researcher. -->
-より詳細な描写を列挙するために、研究者としての視点でその実験を調査すること。
+より詳細な記述を列挙するために、研究者としての視点でその実験を調査すること。
 
 <!-- Detail the recruiting process and the resulting demographic makeup of the participant pool. 
 If the participant pool does not precisely reflect the population of interest you'll want to discuss the differences.  -->
 実験参加者群の勧誘プロセスと、その結果の人口統計の構成を詳細に説明すること。
-実験参加者群が関心のある母集団を正確に反映していない場合、その違いを議論する。
+実験参加者群が関心のある母集団を正確に反映していない場合、その違いを議論する必要がある。
 
 <!-- Describe how participants were observed and how observations translated into data points used for later analysis. 
 A surprising number of submissions fail to explain how behaviors are observed, scored, and then fed into statistical tests. 
 A statistical test is of little value if the reviewer doesn't know how observations were collected, how these observations were translated into numeric scores, or how these numeric scores were processed before a statistical test was applied.  -->
-実験参加者はどのように観察され、その後の分析のためにどのように観察結果がデータポイントに変換されたかを記述すること。
-驚くほど多くの投稿が、行動がいかに観察され、スコア化され、そして統計的な検定に利用されたかの説明できていない。
-観察結果がどのように収集され、観察結果が数値スコアにどのように変換され、数値スコアが統計的検定の適用前にどのように処理されたか、ということが査読者が知らない場合には、統計的検定はほとんど価値を持たない。
+実験参加者はどのように観察され、その後の分析のためにどのように観察結果がデータに変換されたかを記述すること。
+驚くほど多くの投稿が、行動がいかに観察され、スコア化され、そして統計的検定に利用されたかの説明ができていない。
+観察結果がどのように収集され、観察結果が数値スコアにどのように変換され、数値スコアが統計的検定の適用前にどのように処理されたか、ということを査読者が知らない場合には、統計的検定はほとんど価値を持たない。
 
 
 <!-- Along the way, you should highlight the decision points you came across in designing the experiment and explain the reasoning behind the choices you made. 
 Own up to mistakes, especially if you have suggestions for how the methodology might have been improved. 
 I've never run a study and not wished I'd designed their experiment at least slightly differently when the time came to write up the results.  -->
-実験を設計するときに浮かんだ決定店を強調すべきである。そして行った選択の根拠を説明すべきである。
+実験を設計するときに浮かんだ決定点を強調すべきである。そして行った選択の根拠を説明すべきである。
 特に方法論がどのように改善されたかの提案がある場合には、間違いを白状すること。
 私は、結果を書くときになって彼らの実験を少しでも違うように設計すればよかったと望んだり実験を行ったことはない。
 
@@ -155,19 +155,19 @@ Regardless of whether your experiment was reviewed by an IRB, you will want to d
 米国の大学を含む多くの組織は、人間を対象にした実験に対してIRB（組織内審査委員会）の承認を要求する。
 あなたや共同研究者が組織内倫理審査委員会（IRB）を持つ組織で働いているかどうかを説明すること。
 実験が承認された過程を説明すること。
-実験がIRBにより審査されたかに関わらず、潜在的な倫理上または安全性のリスクとそれらへの対処にういて記述する。
+実験がIRBにより審査されたかに関わらず、潜在的な倫理上または安全性のリスクとそれらへの対処にういて記述する必要がある。
 
 <!-- If participants were deceived at any time during the study, you'll want to explain the nature of the deception, how deception impacted each step of the process from recruiting all the way to behavior measurements, and when the deception was revealed to participants.
 Indicate whether participants were given the option to withdraw their consent to participate in the study after the true purpose of the study had been revealed (which is highly recommended).
 If participants were never informed of the deception, you will need to disclose this as well.
 (Failing to reveal the use of deception is quite controversial. See, for example, this paper.)  -->
-実験中に実験参加者に欺瞞をした場合、その欺瞞の性質と、勧誘から行動観察までの各段階における欺瞞の影響、そしていつその欺瞞が実験参加者に明らかにされたかを説明する。
+実験中に実験参加者に欺瞞を行った場合、その欺瞞の性質と、勧誘から行動観察までの各段階における欺瞞の影響、そしていつその欺瞞が実験参加者に明らかにされたかを説明する必要がある。
 真の実験目的が明らかにされた後、実験参加者の同意を撤回するオプションが与えられたかどうかを示すこと（これは強く推奨する）。
 もし実験参加者が欺瞞を知らされなかった場合、その事も開示する必要がある。
 （欺瞞の仕様を明らかにしないことは、かなりの論争の的になる。[参考例](https://www.tandfonline.com/doi/full/10.1080/10508422.2012.732505)）
 
 <!-- Indicate what steps you took to detect if participants might be harmed by your experiment (if any). -->
-実験により実験参加者が被害を受ける可能性があることがあるならば、それを検出するために行った手順を示すこと。
+実験により実験参加者が被害を受ける可能性があるならば、それを検出するために行った手順を示すこと。
 
 <!-- If you have are planning to run a deception study and would like to use a pre-packaged infrastructure that is carefully designed to detect participants' perceptions of harm, and allow participants who feel harmed to withdraw their consent to participate, please consider contacting The Ethical Research Project the use their survey (disclosure: I am part of that project.)  -->
 もし欺瞞を行う実験を計画していて、実験参加者の被害認知の検出と被害を感じた実験参加者に参加同意の撤回の許可をするために丁寧に設計されたパッケージ済みのインフラを用いたい場合、the Ethical Research Projectにコンタクトを取りそのサーベイを利用することを検討されたい（告知：私（Stuart Schechter）はそのプロジェクトの一員である）。
@@ -195,11 +195,11 @@ A common failing in papers is to fail to document or justify the assumptions tha
 Document how any attack you may simulate is similar to, and different from, a real attack. -->
 攻撃に対応するセキュリティの行動をテストする場合、攻撃者が利用可能な情報と能力そしてリソースについての仮定を明確に説明すること。
 これらの仮定は、脅威モデルである。
-脅威モデルを構成する仮定の記述と正当化しないことは、論文でよくある失敗となっている。
+脅威モデルを構成する仮定の記述と正当化を行わないことは、論文でよくある失敗となっている。
 シミュレートした攻撃がどれほど実際の攻撃に類似していてどれだけ異なるかを記述すること。
 
 
-### 4.2 自身のシステムに有利となるバイアスを避けること
+### 4.2 自身のシステムに有利となる偏り（バイアス）を避けること
 <!-- If you are testing a system of your own design, beware of the potential or appearance of bias when designing a threat model and experimental design.
 An attacker will have more incentive to break your system than you do.
 Reviewers may look at an attack you tested against and believe, rightly or wrongly, that they could have designed more effective attacks.
@@ -208,7 +208,7 @@ We've even considered holding contests to identify the most effective attack aga
 独自設計のシステムをテストする場合、脅威モデルと実験の設計における偏りの潜在ないし出現に注意すること。
 攻撃者はあなたが行うよりもシステムを破るインセンティブが大きい。
 査読者はあなたがテストした攻撃を見て、より効果的な攻撃が設計できると信じるだろう（正しいか間違っているにかかわらず）。
-偏りを取り除く1つの方法は、提案システムに可能な限り再考の攻撃を構築する能力とインセンティブの両方を持つ第3者を特定することである。
+偏りを取り除く1つの方法は、提案システムに可能な限り最高の攻撃を構築する能力とインセンティブの両方を持つ第3者を特定することである。
 我々は、提案システムへの最も効果的な攻撃を特定するためにコンテストを開催することを検討したことがある。
 
 
