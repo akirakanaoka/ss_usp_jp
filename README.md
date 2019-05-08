@@ -265,8 +265,8 @@ Rather, failure to disprove the null hypothesis simply means that there was not 
 Failure to prove something is false does not mean it is true.
 The only way one could ever prove that no difference existed between two populations would be to test, and obtain a perfect measurement, of every member of both populations, rendering statistical tests unnecessary.
 Otherwise, the best you can do is to measure the statistical certainty that the difference between two populations is within a certain bound. -->
-*SOUPS委員が毎年見る共通した統計上の誤りが2つある。
-1つ目は、帰無仮説が棄却できないことをもって帰無仮説が正しいことを述べることである。*
+**SOUPS委員が毎年見る共通した統計上の誤りが2つある。**
+**1つ目は、帰無仮説が棄却できないことをもって帰無仮説が正しいことを述べることである。**
 より大きな標本を取れば統計的検定のスコアであるpにおいてp<0.05を得られる可能性が完全にある場合に、著者たちがｐ>0.05であることを仮説が誤りであることの証拠として解釈することが見られる。
 むしろ、帰無仮説が棄却できないことは、その標本サイズとランダムな結果では帰無仮説が誤りであることを証明するための十分な証拠がなかったことを単に意味しているにすぎない。
 何かが誤りであることの証明失敗は、その何かが正しいことを意味しない。
@@ -285,7 +285,7 @@ In this case, the results would be nearly identical with the exception that an a
 
 <!-- The second common mistake is to use more than one data point per participant in a statistical test that assumes data points are independent.
 The very fact that two data points come from a single participant means they are not independent. -->
-2つ目は、データの独立性が仮定されている統計的検定において1人の実験参加者から複数のデータを取っていることである。
+**2つ目は、データの独立性が仮定されている統計的検定において1人の実験参加者から複数のデータを取っていることである。**
 1人に実験参加者から2つのデータを取得することが意味することは、それらは独立していないということである。
 
 
