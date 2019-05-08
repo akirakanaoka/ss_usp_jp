@@ -355,17 +355,27 @@ Speculation about possible implications that could be tested with future work sh
 <!-- To find related work perform web searches on key terms, scour the HCISEC bibliography and the proceedings of SOUPS, CHI, the IEEE Symposium on Security and Privacy (Oakland), USENIX Security, ACM CCS, and NDSS.
 As you look at related work, note key terms that may be useful for searching for other related work.
 You may also want to consult with other researchers who have written work in an area closely related to yours. -->
+関連研究を見つけるためには、キーとなる用語によるWeb検索の実行と、HCISEC bibliography（訳者注：元の文献にはURLが記載されていたが、2019年5月の段階で存在していないため、ここでは記載をしていない）とSOUPS、CHI、IEEE Symposium on Security and Privacy (Oakland)、USENIX Security、ACM CCS、NDSSの予稿集を探すこと。
+関連研究を見るときには、さらに他の関連研究を探すために有用なキーとなる用語に注意すること。
+自身の研究に近い分野の論文を書いた他の研究者に相談することも良い。
 
 ### 7.1 関連研究はどこへ向かう？
 <!-- The HCI community mostly adheres to a convention of presenting related work before experiments to ensure that the reader has all necessary background information before reading about the experimental methodology.
-This convention exists, in part, because may experiments build on the methodology of prior experiments and so much of the related work is germane to the experimental design.
+This convention exists, in part, because may experiments build on the methodology of prior experiments and so much of the related work is germane to the experimental design. -->
+HCIのコミュニティは、読者が実験の方法論に関する部分を読む前に必要となるすべての背景情報を持っていることを確実にするため、実験に関する記載の前に関連研究の記載を置く慣習に大抵は従っています。
+この慣習が存在するのは、部分的には、その研究の実験が先行実験の方法論に基づいて構築され、関連研究の多くが実験の設計と密接に関係しているためである。
 
-The security community mostly adheres to a convention of presenting related work after experiments and results are presented.
+<!-- The security community mostly adheres to a convention of presenting related work after experiments and results are presented.
 This convention makes sense when much of the related work you may want to cite is not needed to motivate or provide background on your experiment.
 When this is the case, the related work may bog down a reader who is interested in getting to the details of your experiment and would prefer to understand the broader context later.
-If you follow this convention, you may need to cite some papers twice: first in an introductory section to motivate or provide essential background and later, after your experiment and results have been presented, to put your work in broader context.
+If you follow this convention, you may need to cite some papers twice: first in an introductory section to motivate or provide essential background and later, after your experiment and results have been presented, to put your work in broader context. -->
+セキュリティのコミュニティは、実験と結果に関する記載の後に関連研究の記載を置く慣習に大抵は従っています。
+この慣習は、関連研究が研究背景や実験の提示や興味を起こさせるため引用すべき関連研究の多くは必要とされない場合に意味を持つ。
+そういった場合には、実験の詳細記述を知りたくより広い文脈の理解は後ほど行いたい読者にとっては、関連研究が読者を止めてしまうかもしれない。
+もしこの慣習に従う場合、いくつかの論文は2度参照されるべきである。最初は導入部分のセクションで本質的な背景の提示と興味を起こさせ、その後で実験と結果に関する記載の後にこの研究をより広い文脈の中でとらえるために。
 
-Either convention is accepted at SOUPS and so you should choose the convention that works best for your paper. -->
+<!-- Either convention is accepted at SOUPS and so you should choose the convention that works best for your paper. -->
+どちらの慣習もSOUPSには受け入れられるので、論文に最も適した慣習を選択するべきである。
 
 ### 7.2 引用のエチケット
 <!-- Wherever you cite related work, make sure citation numbers server as an essential supplement to more descriptive text that describes the work you are citing, and not a replacement for it.
