@@ -225,20 +225,25 @@ If they did, would this have led them to pay more attention to security? Did par
 
 ## 5. 限定条件の開示
 <!-- Be up front and disclose all the limitations of your study design, participant demographics, statistical tests, and other methodological issues. -->
+実験の設計や実験参加者の特性を表す統計、統計的検定、その他方法論的な問題といった点のすべての限定条件を事前に検討し開示すること。
 
 <!-- One of the goals of peer review is to keep papers with misleading or fundamentally awed results from receiving additional credibility through publication, leading others to cite awed conclusions as fact.
 Reviewers will be looking for undisclosed methodological limitations, overstated results, or other content that may mislead a reader.
 Ensuring that readers can correctly identify the scientific implications of your study is your job first, and reviewers second, and so the better you can show that you've done it the better reviewers will feel about your work.
 Reviewers will be less likely to critique your study design if they see that you are aware of the limitations of your work and have fully disclosed them.
-By showing that you've already looked at your own experiment with a critical eye, you allow your reviewers to focus more on evaluating the implications of your findings and less on searching for aws that they suspect may be hiding under the covers. -->
+By showing that you've already looked at your own experiment with a critical eye, you allow your reviewers to focus more on evaluating the implications of your findings and less on searching for flaws that they suspect may be hiding under the covers. -->
+査読の目的の1つは、発表を通して追加的な信ぴょう性を受けたことにより誤解をうけるあるいは根本的に畏れられる結果を含む論文を、維持することにある。
+査読者は、方法の非開示限定条件や過大評価された結果、そして読者を誤解させる他の内容を探している。
+読者に研究の学術的意義を正確に認識させることが、第1にあなたが行うことである。それらを査読者に行うことは第2である。読者に対して正確に認識をさせたことが上手に示されれば、査読者はあなたの研究成果によい感情を抱くだろう。
+あなたが自身の研究成果の限定条件に気づき、それらをすべて開示していることを査読者がわかれば、査読者は研究の設計に対して批判する可能性はより少なくなる。
+自身の実験に対して批判的な視点でとらえていることを示すことによって、査読者は隠れていると疑って欠点探しをすることよりも、明らかになったことの意味の評価により焦点を当てることになる。
 
 <!-- Your discussion of limitations may be placed into its own subsection of your methodology section, results, or discussion sections.
 You may even want to promote limitations to an independent section of the paper. -->
-
+限定条件の議論は、方法論を記載する章や結論の章、あるいは議論の章の中の小節として置かれるだろう。
 
 ## 6. 結果の提示
 <!-- For each test, remind the reader of the hypothesis to be tested, present the data used to test the hypothesis, explain your choice of statistical test, and then present the result of that test. -->
-
 
 ### 6.1 図表
 <!-- Clearly label the rows and columns of tables and the axes of figures.
