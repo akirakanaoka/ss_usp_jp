@@ -359,7 +359,7 @@ You may also want to consult with other researchers who have written work in an 
 関連研究を見るときには、さらに他の関連研究を探すために有用なキーとなる用語に注意すること。
 自身の研究に近い分野の論文を書いた他の研究者に相談することも良い。
 
-### 7.1 関連研究はどこへ向かう？
+### 7.1 関連研究の記載はどこへ置く？
 <!-- The HCI community mostly adheres to a convention of presenting related work before experiments to ensure that the reader has all necessary background information before reading about the experimental methodology.
 This convention exists, in part, because may experiments build on the methodology of prior experiments and so much of the related work is germane to the experimental design. -->
 HCIのコミュニティは、読者が実験の方法論に関する部分を読む前に必要となるすべての背景情報を持っていることを確実にするため、実験に関する記載の前に関連研究の記載を置く慣習に大抵は従っています。
@@ -381,14 +381,22 @@ If you follow this convention, you may need to cite some papers twice: first in 
 <!-- Wherever you cite related work, make sure citation numbers server as an essential supplement to more descriptive text that describes the work you are citing, and not a replacement for it.
 In other words, do not say \[42] presents an experimental methodology for testing the obsessiveness of paper reviewers" but instead say \Zaphod Beeblebrox et al.
 developed one of the first experimental methods for testing the obsessiveness of paper reviewers [42].
-" By so doing, you'll help familiarize your reader with the names of those working in the field, your paper will read more smoothly, and those familiar with the literature won't have to ip pages forward and backward to identify which work you are citing.
+" By so doing, you'll help familiarize your reader with the names of those working in the field, your paper will read more smoothly, and those familiar with the literature won't have to flip pages forward and backward to identify which work you are citing. -->
+関連研究を引用する時には、引用した研究の記載への補足物として文献番号が提供されていることを確認してください。
+言い換えると、「\[42\]は論文査読者の細部へのこだわりをテストするための実験的な方法論を示している」という記載はせずに、「Zaphod Beeblebroxらは、論文査読者の細部へのこだわりをテストするための初期の実験的な方法の1つを開発した\[42\]」のように記述されるべきである。
+こうすることで、読者がその分野を研究している研究者の名前に慣れ、論文がよりスムーズに読まれるようになる。文献に詳しい読者は引用された研究が何かを知るためにページを前後にめくる必要がなくなる。
 
-Providing citation context will also help you avoid making the mistake of citing multiple works with one long string of citation numbers, such as \[59,71,72,78,84]".
+<!-- Providing citation context will also help you avoid making the mistake of citing multiple works with one long string of citation numbers, such as \[59,71,72,78,84]".
 Such bulk citations provide inadequate clues to the reader about what each paper is about, its contribution to the field, and its relation to your work.
-If work is related enough to cite, it's usually related enough to warrant some explanation.
+If work is related enough to cite, it's usually related enough to warrant some explanation. -->
+引用の文脈を提供することは、「\[59,71,72,78,84\]」のように1つにまとめて複数文献を引用するという間違いを避けることができる。
+こういった大量の引用は、それぞれの論文がなにに関する論文で分野にどういった貢献がありどうこの論文と関係があるかといったことについて、読者に不適切な手がかりを与えてしまう。
+もしその研究が引用するのに十分関連している場合は、通常いくらかの説明が必要なほど関連している。
 
-Citing tenuously related work to increase the reference count will not earn points with reviewers or excuse the absence of key related work that has been overlooked.
+<!-- Citing tenuously related work to increase the reference count will not earn points with reviewers or excuse the absence of key related work that has been overlooked.
 While there is no prescribed number of references, expect warning bells to go off in reviewers' minds if you have fewer than ten citations or if more than a quarter of citations are to your own work. -->
+参照件数を増やすために関連性の高い研究を内容が乏しいまま参照しても、査読者の評価が高まるわけではない。また見過ごしにより重要な関連研究が欠けていたことの言い訳にもならない。
+参考文献の数は規定されていないものの、文献数が10未満の場合や著者自身の研究が4分の1を超えている場合には、査読者の心に警告の鐘が鳴り響くだろう。
 
 
 ## 8. 謝辞
