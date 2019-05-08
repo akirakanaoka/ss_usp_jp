@@ -244,11 +244,18 @@ You may even want to promote limitations to an independent section of the paper.
 
 ## 6. 結果の提示
 <!-- For each test, remind the reader of the hypothesis to be tested, present the data used to test the hypothesis, explain your choice of statistical test, and then present the result of that test. -->
+それぞれの検定に対して、検定の対象となる仮説を読者に思い出させ、仮説を検定するために利用されたデータを示し、選択した統計的検定手法を説明し、そしてそれらの後に検定結果の提示をすること。
 
 ### 6.1 図表
 <!-- Clearly label the rows and columns of tables and the axes of figures.
 Make sure the title or caption precisely describes what the contents of the table or figure represent.
 A surprising number of papers contains axes that are not labeled and graphs for which one cannot determine what data are being plotted. -->
+表の行と列、図の軸に明確にラベル付けをすること。
+タイトルまたはキャプションが図表が示す内容を正確に述べているか確認すること。
+驚くほど多くの論文が、ラベルのない軸とプロットされたデータがどのデータなのかわからないようなグラフを含んでいる。
+
+
+
 
 ### 6.2 統計的な妥当性
 <!-- There are two common statistical errors that we on the SOUPS committee see every year.
