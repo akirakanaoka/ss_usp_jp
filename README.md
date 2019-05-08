@@ -265,18 +265,36 @@ Rather, failure to disprove the null hypothesis simply means that there was not 
 Failure to prove something is false does not mean it is true.
 The only way one could ever prove that no difference existed between two populations would be to test, and obtain a perfect measurement, of every member of both populations, rendering statistical tests unnecessary.
 Otherwise, the best you can do is to measure the statistical certainty that the difference between two populations is within a certain bound. -->
+*SOUPS委員が毎年見る共通した統計上の誤りが2つある。
+1つ目は、帰無仮説が棄却できないことをもって帰無仮説が正しいことを述べることである。*
+より大きな標本を取れば統計的検定のスコアであるpにおいてp<0.05を得られる可能性が完全にある場合に、著者たちがｐ>0.05であることを仮説が誤りであることの証拠として解釈することが見られる。
+むしろ、帰無仮説が棄却できないことは、その標本サイズとランダムな結果では帰無仮説が誤りであることを証明するための十分な証拠がなかったことを単に意味しているにすぎない。
+何かが誤りであることの証明失敗は、その何かが正しいことを意味しない。
+2つの母集団間に違いが存在しないことを証明する唯一の方法は、完全な測定手段を手に入れて双方の母集団の全要素にテストを行うことである。そのようにすれば統計的な検定は不要になる。
+それができない場合、最善の方法は2つの母集団の差が一定の範囲内にあることの統計的な確実性を測定することである。
 
-<!-- I've seen experts describe the results of two experiments as conicting when one was able to show a statistical difference between the two groups and the other was not.
+
+<!-- I've seen experts describe the results of two experiments as conflicting when one was able to show a statistical difference between the two groups and the other was not.
 In some cases, both studies might find the exact same difference, but one study may have had the larger sample.
 In other cases, luck caused one study to just pass a significance threshold (say p = 0:48) whereas another just failed to meet it (p =fi0:52).
 In this case, the results would be nearly identical with the exception that an arbitrarily chosen threshold lies in the tiny space between them. -->
+2つの実験結果において片方が2群間の統計的差異を示すことができている一方で他方が示すことに失敗しているケースにおいて、専門家がその結果が矛盾していると述べているのを見たことがある。
+あるケースでは、片方はより大きな標本サイズを持っていたが、両方の研究がまったく同じ違いを見つけることができた。
+他のケースでは、片方が運よく有意性の閾値を通過した（p=0.48）が他方が失敗した（p=0.52）。
+しかし任意に選択された閾値が双方の研究間の小さな空間に設定されていることを除けば、ほぼ同一の結果である。
 
 <!-- The second common mistake is to use more than one data point per participant in a statistical test that assumes data points are independent.
 The very fact that two data points come from a single participant means they are not independent. -->
+2つ目は、データの独立性が仮定されている統計的検定において1人の実験参加者から複数のデータを取っていることである。
+1人に実験参加者から2つのデータを取得することが意味することは、それらは独立していないということである。
+
 
 <!-- As the number of statistical tests used to test one or more hypotheses grows, so does the chance that one will reach your significance threshold due to random chance.
 You may want to correct for multiple testing.
 See, for example, the Wikipedia entry on Multiple Comparisons. -->
+1つ以上の仮説を検定するために行われる統計的検定の回数が増えるに従い、偶然ある1つの仮説が有意水準に達する確率が高まる。
+複数の検定を修正する方法がある。
+例えば、Wikipediaの[Multiple Compasirons](https://en.wikipedia.org/wiki/Multiple_comparisons_problem)の項を参照すると良い。
 
 <!-- An example of this mistake is to ask 10 participants 10 questions, and then feed the 100 responses into a statistical test.
 The statistical test will produce a p value as it would if there were actually 1 question asked of 100 participants.
@@ -284,7 +302,14 @@ If it isn't already clear to you why this is a problem, imagine that one were to
 The statistical test has 50 samples for men and 50 samples for women.
 Let's say the man has no knowledge of statistics, and gets all 50 questions wrong.
 The woman gets them all right.
-Misled to believe that it had 50 independent trials from both men and women, the statistical test would indicate that women are better at statistics than men with a p value far below 0:01{a significant result! It is hopefully intuitively obvious that one cannot make such a strong conclusion about two populations by sampling only one member from each. -->
+Misled to believe that it had 50 independent trials from both men and women, the statistical test would indicate that women are better at statistics than men with a p value far below 0.01{a significant result! It is hopefully intuitively obvious that one cannot make such a strong conclusion about two populations by sampling only one member from each. -->
+この誤りの例として、10人の実験参加者に10の質問を行い、得た100の回答で1つの統計的検定行うことがある。
+統計的検定は、それが1つの質問に100人の実験参加者が答えたものとしてp値を算出する。
+これがなぜ問題であるか確信ができない場合、さらに別の例を考えよう。
+1人の男性と1人の女性に統計に関する50の質問をしたとする。
+統計的検定で、男性の情報として50の標本を、女性の情報として50の標本を得ることになる。
+ここでもしその1人の男性が統計の知識がなくすべての質問で誤答し、その1人の女性はすべての質問に正答したとする。
+
 
 <!-- There are a number of ways to run statistical tests when you have multiple data points from the same participant.
 One simple one is to take a summary statistic for each participant and run the statistical test on the summary statistic.
